@@ -35,11 +35,11 @@ function while2(){
 function paleta(){
 
    var tabela = "<table>";
-   for (var linha = 1 ; linha <= 150 ; linha++){
+   for (var linha = 1 ; linha <= 20 ; linha++){
 
     tabela += "<tr>";
 
-    for (var coluna = 1 ; coluna <= 315 ; coluna++){
+    for (var coluna = 1 ; coluna <= 50; coluna++){
         var r = Math.round(Math.random()*254);
         var g = Math.round(Math.random()*254);
         var b = Math.round(Math.random()*254);
